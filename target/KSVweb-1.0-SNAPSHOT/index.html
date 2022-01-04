@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Анкета</title>
+    </head>
+    <body>
+        <form action="/questions" method="POST">
+            <p><b>Ваше имя:</b><br>
+                <input type="text" name="firstname" size="40">
+            </p>
+            <p><b>Ваша фамилия:</b><br>
+                <input type="text" name="lastname" size="40">
+            </p>
+            <p><b>Ваш возраст:</b><br>
+                <input type="number" name="age">
+            </p>
+            <p><b>Знаете ли Вы HTML:</b><Br>
+                <input type="radio" name="html" value="yes"> Да<Br>
+                <input type="radio" name="html" value="no"> Нет<Br>
+            </p>
+            <p><b>Знаете ли Вы Java:</b><Br>
+                <input type="radio" name="java" value="yes"> Да<Br>
+                <input type="radio" name="java" value="no"> Нет<Br>
+            </p>
+            <p><b>Знаете ли Вы CSS:</b><Br>
+                <input type="radio" name="css" value="yes"> Да<Br>
+                <input type="radio" name="css" value="no"> Нет<Br>
+            </p>
+            <p><input type="submit" value="Отправить">
+        </form>
+    </body>
+</html>

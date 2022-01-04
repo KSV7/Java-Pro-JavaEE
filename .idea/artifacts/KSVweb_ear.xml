@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="KSVweb:ear">
+    <output-path>$PROJECT_DIR$/out/artifacts/KSVweb_ear</output-path>
+    <root id="archive" name="KSVweb_ear.ear">
+      <element id="artifact" artifact-name="KSVweb:ear exploded" />
+    </root>
+  </artifact>
+</component>
